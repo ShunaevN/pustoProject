@@ -168,3 +168,4 @@ def export_player_levels_to_csv(file_path: str, session=None, chunk_size: int = 
                 '1' if row.is_completed else '0',
                 row.prize_title or '',
             ])
+            

@@ -132,6 +132,3 @@ class Player(db.Model):
             granted_by_user_id=granted_by_user_id,
             expires_at=expires_at
         )
-
-
-

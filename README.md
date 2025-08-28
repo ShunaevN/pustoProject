@@ -75,12 +75,6 @@ from app.models.player import Player
 from app.models.boost import Boost
 ```
 
-### Запуск примера
-Примеры не требуют поднятого Flask‑сервера, они демонстрируют работу API объектов в памяти.
-```
-python app/examples/boost_usage_example.py
-```
-
 ### Ключевые сущности
 - `Player`:
   - поля: `id`, `email`, `full_name`, даты логинов, `points`.
